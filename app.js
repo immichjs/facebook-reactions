@@ -15,6 +15,6 @@ function create (attr) {
     container.appendChild(createImg)
 }
 
-for (let i = 0; i < urlImages.length; i++) {
-    create(urlImages[i])
+for (let i of urlImages) {
+    create(i)
 }
